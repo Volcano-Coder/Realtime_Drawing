@@ -1,0 +1,35 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 2;
+    text-align: center;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example ;
+    animation-duration: 2.5s;
+    animation-iteration-count:infinite ;
+    margin-bottom: 150px;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 5px turquoise;}
+    to{box-shadow: 5px 5px 5px rgb(255, 23, 23)}
+}
